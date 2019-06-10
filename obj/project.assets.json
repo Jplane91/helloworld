@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jacoblane/Projects/HelloWorld/helloworld/helloworld.csproj",
+      "projectUniqueName": "/Users/jacoblane/Documents/HelloWorld/HelloWorld/helloworld.csproj",
       "projectName": "helloworld",
-      "projectPath": "/Users/jacoblane/Projects/HelloWorld/helloworld/helloworld.csproj",
+      "projectPath": "/Users/jacoblane/Documents/HelloWorld/HelloWorld/helloworld.csproj",
       "packagesPath": "/Users/jacoblane/.nuget/packages/",
-      "outputPath": "/Users/jacoblane/Projects/HelloWorld/helloworld/obj/",
+      "outputPath": "/Users/jacoblane/Documents/HelloWorld/HelloWorld/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -727,6 +727,7 @@
       "netcoreapp2.1": {
         "dependencies": {
           "Microsoft.NETCore.App": {
+            "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true
